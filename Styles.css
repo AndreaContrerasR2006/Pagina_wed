@@ -1,0 +1,79 @@
+body {
+    font-family: 'cambria', sans-serif;
+    background-color: white; 
+    color: black; 
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+
+.seccion {
+    padding: 20px 0;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+h1 {
+    color: palegreen; 
+}
+
+h2 {
+    color: palegreen; 
+}
+
+
+footer {
+    background-color: red; 
+    padding: 20px 0;
+}
+
+.btn-primary {
+    background-color: red; 
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: red;
+}
+
+
+.card {
+    border: none;
+    border-radius: 10px; 
+}
+
+.card-title {
+    font-size: 1.23rem; 
+    color: blue; 
+}
+
+.card-text {
+    color: rgb(54, 44, 44); 
+}
+
+.img-fluid {
+    border-radius: 20px; 
+}
+
+/* Espaciado */
+.mt-5 {
+    margin-top: 3rem !important; 
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .btn-block {
+        width: 100%;
+    }
+}
